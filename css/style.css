@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-
+/* Navbar */
 #navbar {
     background: #333;
     color: #fff;
@@ -46,7 +46,16 @@
     color: #f7c08a;
     transition: .5s;
 }
-h1 {
-    font-size: 200s0px;
 
+/* Utilities */
+.clr {
+    clear: both;
+}
+
+/* Footer */
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
 }
