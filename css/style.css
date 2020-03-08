@@ -50,6 +50,15 @@
     margin-left: 20px;
 }
 
+.logo-img {
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    float: left;
+    margin: 8px 0 0 10px;
+}
+
 /* Utilities */
 .clr {
     clear: both;
