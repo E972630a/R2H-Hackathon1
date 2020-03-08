@@ -3,7 +3,7 @@
     width: 30%;
     height: 200px;
     box-shadow: 5px 5px 5px grey;
-    background-color: lightgrey;
+    background-color: #4C9A2A;
 }
 
 .float h2,
@@ -30,3 +30,4 @@
     height: 500px;
     margin-bottom: 20px;
 }
+
