@@ -1,10 +1,16 @@
 .bg {
     background: url('../img/you-matter.jpeg') no-repeat center center/cover;
     height: 430px;
-    color: white;
+    color:white;
     text-align: center;
     font-size: 2em;
 
+}
+.header {
+    position: fixed center;
+    background-color: black;
+    display: inline-block;
+    
 }
 
 .impact {
@@ -24,7 +30,7 @@
     width: 29%;
     height: 300px;
     padding: 50px;
-    background-color:#76BA1B;;
+    background-color: white;
     margin: 2%;
 }
 .profile {
