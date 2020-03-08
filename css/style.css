@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-
+/* Navbar */
 #navbar {
     background: #333;
     color: #fff;
@@ -35,7 +35,7 @@
 
 #navbar ul li a {
     display: block;
-    padding: 20px;
+    padding: 25px;
     text-align: center;
 
 }
@@ -47,6 +47,28 @@
     transition: .5s;
 }
 h1 {
-    font-size: 200s0px;
+    font-size: 200px;
+}
 
+
+.logo {
+    margin-left: 20px;
+}
+
+/* Utilities */
+.clr {
+    clear: both;
+}
+
+/* Footer */
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+}
+
+.social {
+    width: 75px;
+    margin-top: 20px;
 }

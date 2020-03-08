@@ -1,0 +1,26 @@
+.about {
+    margin: 10px;
+    background-color: lightgray;
+    height: 590px;
+    padding: 20px;
+}
+
+.box {
+    float: left;
+    width: 29%;
+    height: 300px;
+    padding: 50px;
+    background-color: white;
+    margin: 2%;
+}
+.profile {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.img1 {
+    background: url("../img/dan-meyers-hluOJZjLVXc-unsplash.jpg") no-repeat center/cover;
+    height: 500px;
+    background-attachment: fixed;
+}
