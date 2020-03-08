@@ -4,16 +4,21 @@
     color: white;
     text-align: center;
     font-size: 2em;
+<<<<<<< HEAD
+=======
+
+>>>>>>> jkurien
 }
 
 .impact {
-    border: solid green;
+    color: white;
+    text-align: center;
 }
 
-.testimonials {
+.about {
     margin: 10px;
-    background-color: lightgray;
-    height: 590px;
+    background-color: #1E5631;
+    height: 450px;
     padding: 20px;
 }
 
@@ -22,11 +27,11 @@
     width: 29%;
     height: 300px;
     padding: 50px;
-    background-color: white;
+    background-color:#76BA1B;;
     margin: 2%;
 }
 .profile {
-    border-radius: 50%;
+    border-radius: 5%;
     width: 100px;
     height: 100px;
     object-fit: cover;
