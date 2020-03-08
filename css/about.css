@@ -4,7 +4,10 @@
     color:white;
     text-align: center;
     font-size: 2em;
+<<<<<<< HEAD
+=======
 
+>>>>>>> jkurien
 }
 .header {
     position: fixed center;
@@ -39,4 +42,8 @@
     height: 100px;
     object-fit: cover;
 }
-
+.img1 {
+    background: url("../img/dan-meyers-hluOJZjLVXc-unsplash.jpg") no-repeat center/cover;
+    height: 500px;
+    background-attachment: fixed;
+}
