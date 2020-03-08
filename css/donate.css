@@ -1,0 +1,55 @@
+.placeholder-img {
+    background: url('https://nces.ed.gov/fastfacts/images/studentgroup.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 500px;
+    margin-bottom: 20px;
+}
+
+.float {
+    width: 30%;
+    height: 200px;
+    box-shadow: 5px 5px 5px grey;
+    background-color: #76BA1B;
+}
+
+.float h2,
+.float p {
+    padding: 20px;
+    text-align: center;
+}
+
+.float-right {
+    float: right;
+    margin: 0 15% 20px 0;
+}
+
+.float-left {
+    float: left;
+    margin: 0 0 20px 15%;
+}
+
+.btn {
+    position: absolute;
+    top: 400px;
+    left: 50%;
+    margin-left: -103px;
+    color: white;
+    background: green;
+    padding: 30px 60px; 
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.btn:hover {
+    background: #ACDF87;
+    color: #3a55b4;
+    transition: .5s;
+}
+
+main {
+    text-align: center;
+}
