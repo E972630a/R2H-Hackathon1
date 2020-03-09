@@ -1,0 +1,118 @@
+/* CSS Reset */
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navbar */
+#navbar {
+    background: #1E5631;
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#navbar h1 {
+    float: left;
+    padding: 20px 0;
+}
+
+#navbar ul  {
+    float: right;
+    list-style: none;
+}
+
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 25px;
+    text-align: center;
+
+}
+
+#navbar ul li a:hover,
+#navbar ul li a.current {
+    background: #8ef283;
+    color: #3a55b4;
+    transition: .5s;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+.logo-img {
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    float: left;
+    margin: 8px 0 0 10px;
+}
+
+/* Utilities */
+.clr {
+    clear: both;
+}
+/*body*/
+
+.heading1{
+    margin:0;
+    padding-top: 25px;
+    text-align: center;
+    color: black;
+}
+
+.ERH{
+    color:red;
+}
+.body{
+    margin: 0 60px;
+    padding: 20px 50px;
+}
+.h3p{
+    margin:0;
+    padding: 10px 30px;
+}
+.paragraphs{
+    margin:0;
+    padding: 10px 35px;
+}
+
+.heading2{
+    padding-top: 15px;
+}
+
+.list ul{
+    padding: 5px 50px;
+    list-style-type: none;
+
+}
+
+.list a{
+    color:black;
+    font-weight:bold;
+}
+
+/* Footer */
+#main-footer {
+    text-align: center;
+    background: #1E5631;
+    color: #fff;
+    padding: 20px;
+}
+
+.social {
+    width: 75px;
+    margin-top: 20px;
+}
+
