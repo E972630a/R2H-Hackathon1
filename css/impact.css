@@ -62,13 +62,45 @@
 /* Utilities */
 .clr {
     clear: both;
-    height: 157px;
+}
+/*body*/
+
+.heading1{
+    margin:0;
+    padding-top: 25px;
+    text-align: center;
+    color: black;
 }
 
-/* Body */
-body {
-    position: relative;
-    padding-bottom: 50px;
+.ERH{
+    color:red;
+}
+.body{
+    margin: 0 60px;
+    padding: 20px 50px;
+}
+.h3p{
+    margin:0;
+    padding: 10px 30px;
+}
+.paragraphs{
+    margin:0;
+    padding: 10px 35px;
+}
+
+.heading2{
+    padding-top: 15px;
+}
+
+.list ul{
+    padding: 5px 50px;
+    list-style-type: none;
+
+}
+
+.list a{
+    color:black;
+    font-weight:bold;
 }
 
 /* Footer */
@@ -77,14 +109,9 @@ body {
     background: #1E5631;
     color: #fff;
     padding: 20px;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
 }
 
 .social {
     width: 75px;
     margin-top: 20px;
 }
-
