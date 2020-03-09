@@ -1,5 +1,5 @@
 /* CSS Reset */
-{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -114,5 +114,9 @@
 .social {
     width: 75px;
     margin-top: 20px;
+<<<<<<< HEAD
 }
 
+=======
+}
+>>>>>>> 359f89e71bb090860069e0f7308f9e42fe580a8b
