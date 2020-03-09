@@ -64,7 +64,10 @@
     clear: both;
 }
 /*body*/
-
+.hero{
+    height:600px;
+    width:100%;
+}
 .heading1{
     margin:0;
     padding-top: 25px;
