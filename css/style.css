@@ -62,6 +62,13 @@
 /* Utilities */
 .clr {
     clear: both;
+    height: 157px;
+}
+
+/* Body */
+body {
+    position: relative;
+    padding-bottom: 50px;
 }
 
 /* Footer */
@@ -70,7 +77,7 @@
     background: #1E5631;
     color: #fff;
     padding: 20px;
-    /* position: absolute; */
+    position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
@@ -80,3 +87,4 @@
     width: 75px;
     margin-top: 20px;
 }
+
