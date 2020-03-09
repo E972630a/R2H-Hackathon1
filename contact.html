@@ -1,50 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/contact.css" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
-
     <title>Home Page</title>
-    <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
 
 <body>
-    <nav id="navbar">
-        <img class="logo-img" src="img/logo-edited.jpg">
-        <h1 class="logo"><a href="index.html">Aiding the Spectrum</a></h1>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="impact.html">Impact</a></li>
-            <li><a href="donate.html">Donate</a></li>
-            <li><a class="current" href="contact.html">Contact</a></li>
+    <header>
+        <nav id="navbar">
+            <img class="logo-img" src="img/logo-edited.jpg">
+            <h1 class="logo"><a href="index.html">Aiding the Spectrum</a></h1>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="impact.html">Impact</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a class="current" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="contact-form" class="py-3">
+        <div class="container">
+            <h1 class="l-heading"><span class="text-primary">Contact</span> Us</h1>
+            <p>Please fill out the form below to contact us</p>
+            <form action="destination.php">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" name="name" id="name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="text" name="email" id="email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message or Questions:</label>
+                    <textarea name="message" id="message"></textarea>
+                    <button type="submit" class="btn">Submit</button> <br>
+                </div>
+            </form>
+        </div>
+    </section>
 
-        </ul>
-    </nav> 
-
-    <main>
-
-        <div class="placeholder-img"></div>
-        <section class="float float-left">
-            <h2>Mission</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae earum soluta ipsam aspernatur voluptatum dicta!</p>
-        </section>
-    
-        <section class="float float-right">
-            <h2>Impact</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eaque sapiente deleniti molestiae ipsa architecto?</p>
-        </section>
-    </main>
-    
     <div class="clr"></div>
+    <div>
     <footer id="main-footer">
         <p>Aiding the Spectrum &copy; 2020, All Rights Reserved</p>
         <a target="_blank" rel="noopener" href="https://www.facebook.com/"><img class="social" src="https://en.facebookbrand.com/wp-content/uploads/2019/04/f_logo_RGB-Hex-Blue_512.png" alt="facebook logo"></a>
         <a target="_blank" rel="noopener" href="https://www.instagram.com/"><img class="social" src="https://instagram-brand.com/wp-content/themes/ig-branding/assets/images/ig-logo-email.png" alt="instagram logo"></a>
         <a target="_blank" rel="noopener" href="https://twitter.com/?lang=en"><img class="social" src="https://cdn3.iconfinder.com/data/icons/free-social-icons/67/twitter_circle_color-512.png" alt="twitter logo"></a>
+        <a target="_blank" rel="noopener" href="https://www.facebook.com/"><img class="social">
+        </div>           
     </footer>
-
 </body>
 
 </html>
