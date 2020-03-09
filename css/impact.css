@@ -63,6 +63,45 @@
 .clr {
     clear: both;
 }
+/*body*/
+
+.heading1{
+    margin:0;
+    padding-top: 25px;
+    text-align: center;
+    color: black;
+}
+
+.ERH{
+    color:red;
+}
+.body{
+    margin: 0 60px;
+    padding: 20px 50px;
+}
+.h3p{
+    margin:0;
+    padding: 10px 30px;
+}
+.paragraphs{
+    margin:0;
+    padding: 10px 35px;
+}
+
+.heading2{
+    padding-top: 15px;
+}
+
+.list ul{
+    padding: 5px 50px;
+    list-style-type: none;
+
+}
+
+.list a{
+    color:black;
+    font-weight:bold;
+}
 
 /* Footer */
 #main-footer {
