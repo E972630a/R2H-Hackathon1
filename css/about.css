@@ -1,19 +1,26 @@
 .bg {
     background: url('../img/you-matter.jpeg') no-repeat center center/cover;
     height: 430px;
-    color: white;
+    color:white;
     text-align: center;
     font-size: 2em;
 }
-
-.impact {
-    border: solid green;
+.header {
+    position: fixed center;
+    background-color: black;
+    display: inline-block;
+    
 }
 
-.testimonials {
+.impact {
+    color: white;
+    text-align: center;
+}
+
+.about {
     margin: 10px;
-    background-color: lightgray;
-    height: 590px;
+    background-color: #1E5631;
+    height: 450px;
     padding: 20px;
 }
 
@@ -26,9 +33,13 @@
     margin: 2%;
 }
 .profile {
-    border-radius: 50%;
+    border-radius: 5%;
     width: 100px;
     height: 100px;
     object-fit: cover;
 }
-
+.img1 {
+    background: url("../img/dan-meyers-hluOJZjLVXc-unsplash.jpg") no-repeat center/cover;
+    height: 500px;
+    background-attachment: fixed;
+}
