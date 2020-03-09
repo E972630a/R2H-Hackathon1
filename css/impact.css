@@ -67,6 +67,8 @@
 .hero{
     height:600px;
     width:100%;
+    object-fit: cover;
+    object-position: top;
 }
 .heading1{
     margin:0;
